@@ -83,7 +83,7 @@ variable "certificate_arn" {
 variable "tls_ssl_policy" {
   type        = string
   description = "The name of the SSL Policy for the listener"
-  default     = "ELBSecurityPolicy-2016-08"
+  default     = "ELBSecurityPolicy-TLS13-1-2-2021-06"
 }
 
 variable "access_logs_prefix" {
