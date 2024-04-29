@@ -298,7 +298,7 @@ variable "http_port" {
 variable "security_group_enabled" {
   type        = bool
   description = "Enables the security group"
-  default     = true
+  default     = false
 }
 
 variable "https_enabled" {
